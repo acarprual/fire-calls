@@ -1,0 +1,113 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("fireCallsBg.png") #746c74 no-repeat center;
+}
+
+#root {
+  width: 100%;
+}
+
+.fire-calls {
+  max-width: 410px;
+  margin: 0 auto;
+  padding: 40px 30px 50px;
+  border-radius: 8px;
+  backdrop-filter: blur(30px);
+  background: rgba(2, 7, 40, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.fire-calls .fire-calls-title {
+  color: #fff;
+  font-size: 1.65rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.fire-calls .fire-calls-form {
+  margin-top: 45px;
+}
+
+.fire-calls-form .form-group {
+  display: flex;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+.fire-calls-form .form-group .form-label {
+  color: #fff;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 9px;
+  font-size: 1rem;
+}
+
+.fire-calls-form .form-group .form-input {
+  outline: none;
+  font-size: 1.1rem;
+  padding: 0 15px;
+  color: #fff;
+  font-weight: 500;
+  min-height: 48px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.fire-calls-form .submit-button {
+  width: 100%;
+  min-height: 52px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: 0.2s ease;
+}
+
+.fire-calls-form .submit-button.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.fire-calls-form .submit-button:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.fire-calls-form .result {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 25px;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 0 10px;
+  }
+
+  .fire-calls {
+    padding: 30px 20px 40px;
+  }
+}

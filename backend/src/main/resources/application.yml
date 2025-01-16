@@ -1,0 +1,7 @@
+fire-calls:
+  endpoint: https://data.seattle.gov/resource/kzjm-xkqj.json
+server:
+  endpoint:
+    health:
+      show-details: always
+  port: 8888
