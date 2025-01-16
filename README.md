@@ -2,7 +2,7 @@
 
 This service shows an aggregated count of fire calls by type, given a pair of cartesian coordinates and a search radius.
 
-This is a [Spring Boot](https://spring.io/projects/spring-boot) and a [React](https://react.dev/) project
+This is a [Spring Boot](https://spring.io/projects/spring-boot) and a [React](https://react.dev/) project.
 
 ## Getting Started
 
